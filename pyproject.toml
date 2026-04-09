@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hookscore"
+version = "0.1.0"
+description = "Score your hook - predict if people will read your content using LLM surprise as a brain engagement proxy"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{ name = "Abhishek" }]
+keywords = ["engagement", "llm", "surprise", "neuroscience", "nlp", "text-analysis", "hook"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = ["httpx>=0.24"]
+
+[project.scripts]
+hookscore = "hookscore.scorer:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-httpx>=0.21"]
