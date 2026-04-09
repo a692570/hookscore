@@ -67,6 +67,8 @@ hookscore --chunk-size 20 "Your text here"
 Zhang & Rosenberg found that when an LLM's prediction error spikes (i.e., text is "surprising" to the model), the same regions of the human brain that track engagement also spike. HookScore uses this insight as a heuristic: if the LLM finds your text surprising, your readers probably will too.
 
 > Zhang, M., & Rosenberg, M. D. (2025). Brain network dynamics predict engagement during naturalistic listening. *Nature Human Behaviour*. https://doi.org/10.1038/s41562-024-02017-0
+>
+> Research code: [ZiweiZhang0304/Surprise_EFPM](https://github.com/ZiweiZhang0304/Surprise_EFPM)
 
 ## Configuration
 
