@@ -7,7 +7,7 @@
 
 HookScore splits your text into chunks, asks an LLM how surprising each chunk is given what came before, and turns those scores into an engagement report: per-chunk bars, avg/peak/trough/variance, drop-off detection, and an overall verdict.
 
-Based on research from UChicago showing that LLM prediction error ("surprise") correlates with human brain engagement (Zhang & Rosenberg, Nature Human Behaviour, 2025).
+Based on research from UChicago showing that LLM prediction error ("surprise") correlates with human brain engagement ([Zhang & Rosenberg, Nature Human Behaviour, 2025](https://doi.org/10.1038/s41562-024-02017-0) | [code](https://github.com/ZiweiZhang0304/Surprise_EFPM)).
 
 ## Install
 
